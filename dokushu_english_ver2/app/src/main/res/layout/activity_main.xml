@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:src="@drawable/dokushu_english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="100dp"
+        android:textColor="@color/sub"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="いらっしゃいませ"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/startButton"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:textSize="20sp"
+        android:text="はじめる"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/sub"
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content"
+        />
+
+
+</LinearLayout>
